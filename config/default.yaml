@@ -1,0 +1,14 @@
+project_name: military_footage_project
+source: dvids
+media_types:
+  - video
+  - image
+workspace: workspace
+downloads:
+  max_files_per_batch: 2
+  respect_api_quotas: true
+  require_manual_selection: true
+editing:
+  aspect_ratio: "16:9"
+  frame_rate: 30
+  target_resolution: "1920x1080"
